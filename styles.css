@@ -381,6 +381,21 @@ nav {
   opacity: 1;
 }
 
+/*STUDIES STYLE*/
+
+.language .studie__name {
+  position: absolute;
+  bottom: 0;
+  transform: scale(0);
+  transition: all 300ms;
+  font-size: 15px;
+  opacity: 0;
+}
+.language:hover .studie__name {
+  transform: scale(1);
+  opacity: 1;
+}
+
 /* PROJECTS */
 
 .project {
